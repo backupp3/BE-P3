@@ -28,7 +28,7 @@ func TestGeneratePrivateKeyPaseto(t *testing.T) {
 }
 
 func TestHashFunction(t *testing.T) {
-	mconn := SetConnection("MONGOSTRING", "konseling")
+	mconn := SetConnection("MONGOSTRING", "keekonseling")
 	var userdata User
 	userdata.Username = "gabril"
 	userdata.Password = "bellaa"
@@ -44,7 +44,7 @@ func TestHashFunction(t *testing.T) {
 }
 
 func TestIsPasswordValid(t *testing.T) {
-	mconn := SetConnection("MONGOSTRING", "konseling")
+	mconn := SetConnection("MONGOSTRING", "keekonseling")
 	var userdata User
 	userdata.Username = "gabril"
 	userdata.Password = "bellaa"
@@ -54,7 +54,7 @@ func TestIsPasswordValid(t *testing.T) {
 }
 
 func TestInsertUser(t *testing.T) {
-	mconn := SetConnection("MONGOSTRING", "konseling")
+	mconn := SetConnection("MONGOSTRING", "keekonseling")
 	var userdata User
 	userdata.Username = "gabril"
 	userdata.Password = "bellaa"
